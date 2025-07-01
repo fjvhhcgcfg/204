@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: host-204-service
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app_204.py
